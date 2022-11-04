@@ -3,10 +3,10 @@
 // элементов массива.
 // [3 7 22 2 78] -> 76
 
-int[] GetArray(int sije)
+int[] GetArray(int size)
 {
-  int[] res = new int[sije];
-  for (int i = 0; i < sije; i++)
+  int[] res = new int[size];
+  for (int i = 0; i < size; i++)
   {
     res[i] = new Random().Next(0, 100);
     Console.Write($"{res[i]}, ");
